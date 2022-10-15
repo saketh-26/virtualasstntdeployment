@@ -12,5 +12,5 @@ def result():
       print(transcript)
       result = virtual_assistant(transcript)
       return jsonify({'result':result})
-app.run()
+#app.run()
 
